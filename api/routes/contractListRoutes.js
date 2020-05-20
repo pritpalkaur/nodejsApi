@@ -3,7 +3,7 @@ module.exports = function(app) {
   var contractList = require('../controllers/contractListController');
  
   // contractList Routes
-  app.route('/contracts/GetTotalSupply').post(contractList.list_all_contract);
+  app.route('/contracts/GetTotalSupply').get(contractList.list_all_contract);
 
   // contractList Routes
   app.route('/contracts/GetTotalSupply').post(contractList.list_all_contract);
