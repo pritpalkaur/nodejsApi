@@ -1,5 +1,5 @@
 {
-  "name": "todolistapi",
+  "name": "contractapi",
   "version": "1.0.0",
   "description": "restfull api",
   "main": "index.js",
